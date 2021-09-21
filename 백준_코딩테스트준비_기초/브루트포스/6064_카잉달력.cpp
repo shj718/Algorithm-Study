@@ -36,6 +36,6 @@ int main() {
 	for (int i = 0; i < T; ++i) {
 		cout << answer[i] << '\n';
 	}
-    delete[] answer;
+	delete[] answer;
 	return 0;
 }
